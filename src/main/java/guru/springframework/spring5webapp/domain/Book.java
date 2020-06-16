@@ -60,6 +60,17 @@ public class Book {
         this.authors = authors;
     }
 
+
+    @Override
+    public String toString() {
+        return "Book{" +
+                "id=" + id +
+                ", title='" + title + '\'' +
+                ", isbn='" + isbn + '\'' +
+                ", authors=" + authors +
+                '}';
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
